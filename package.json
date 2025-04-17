@@ -1,0 +1,18 @@
+{
+  "name": "mixcloud-chat-trigger-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for Mixcloud Chat Trigger",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^19.7.5",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
